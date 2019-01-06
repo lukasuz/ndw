@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDW</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Only works if there is a second iframe, I really have no idea and can't be bothered to google. Just leave it here. -->
+    <iframe  style="display:hidden; position: absolute; z-index:-100" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+
+      <div class="header columns">
+        <div class="column col-12">
+            <h1>Your Daily Dose of NDW</h1>
+        </div>
+      </div>
+
+      <div class="content">
+
+        <div id="video-area" class="columns">
+          <div class="image-area" id="image">
+            <img id="radio" src="img/radio.png"/>
+          </div>
+          <iframe style="display:none"  id="video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="button-area columns">
+
+          <div class="column">
+            <button class="button" id="random-button">RANDOM</button>
+          </div>
+
+          <div class="column">
+            <button class="button" id="daily-button">DAILY</button>
+          </div>
+
+        </div>
+
+        <div class="footer-area column">
+          <p>
+            <a class="link" href='https://blog.spoongraphics.co.uk/freebies/1985-a-free-vector-pack-of-your-favourite-80s-icons'>Icons by Blog.SpoonGraphics</a> & <a class="link" href='https://www.freepik.com/free-vector/colorful-geometric-patterns_888583.htm'>Background designed by Freepik</a>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
